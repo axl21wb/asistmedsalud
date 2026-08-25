@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         `;
 
-        //fetch("api/consulta_afiliado.php", {//
+        fetch("api/consulta_afiliado.php", {
             
-        fetch("https://axl21wb.github.io/asistmedsalud/api/consulta_afiliado.php", {
+        
             method: "POST",
 
             headers: {
