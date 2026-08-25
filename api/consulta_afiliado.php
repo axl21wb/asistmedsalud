@@ -5,7 +5,7 @@ header("Content-Type: application/json; charset=UTF-8");
 $servidor = "localhost";
 $usuario = "root";
 $password = "";
-$base_datos = "asistmed";
+$base_datos = "api/asistmed";
 
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
